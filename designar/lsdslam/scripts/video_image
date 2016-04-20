@@ -1,0 +1,7 @@
+#!/bin/bash 
+sleep 5
+cd /home/g2/imageFromVideo/imageFromVideo
+python imageFromVideo.py $1
+cd /home/g2/inpainting/inpainting
+python inpainting.py /home/g2/repo/designar/media/plot/$2
+

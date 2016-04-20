@@ -1,0 +1,4 @@
+#!/bin/bash 
+cd /home/g2/catkin_ws
+source devel/setup.bash
+rosrun lsd_slam_viewer viewer >> /home/g2/repo/designar/media/camera/$1

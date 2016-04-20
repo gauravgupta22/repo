@@ -1,0 +1,4 @@
+#!/bin/bash 
+cd /home/g2/catkin_ws
+source devel/setup.bash
+rosrun lsd_slam_core live_slam image:=/video_image camera_info:=/camera_ip_info
